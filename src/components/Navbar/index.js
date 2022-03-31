@@ -1,33 +1,51 @@
 import React from 'react'
-//import { NavLink } from 'react-router-dom'
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements'
+import { 
+    Nav, 
+    NavbarContainer, 
+    NavLogo, 
+    MobileIcon, 
+    NavMenu, 
+    NavItem, 
+    NavLinks,
+    NavBtn,
+    NavBtnLink
+} from './NavbarElements'
+import { FaBars } from 'react-icons/fa'
 
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
+
+    
+
     return (
         <>
             <Nav>
-                <NavLink to='/'>
-                    <h1>LOGO</h1>
-                </NavLink>
-                <Bars />
-                <NavMenu>
-                    <NavLink to='/profile/:name' >
-                        Profile
-                    </NavLink>
-                    <NavLink to='/contact-us' >
-                        Contact
-                    </NavLink>
-                    <NavLink to='/about-me' >
-                        About Me
-                    </NavLink>
-                    <NavLink to='/sing-up' >
-                        Sing Up
-                    </NavLink>
-                </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to='/signin'>Signin In</NavBtnLink>
-                </NavBtn>
+                <NavbarContainer >
+                    <NavLogo to='/'>
+                        dollar  
+                    </NavLogo>
+                    <MobileIcon onClick={toggle}>
+                        <FaBars />
+                    </MobileIcon>
+
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to='about'>About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='discover'>Discover</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='services'>Services</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='signup'>Sign Up</NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to='/signin'>Sing In</NavBtnLink>
+                    </NavBtn>
+                </NavbarContainer>
             </Nav>
         </>
     )
