@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/aboutme/static/css/main.c1443fe1.css",
-    "main.js": "/aboutme/static/js/main.e09c79f2.js",
+    "main.js": "/aboutme/static/js/main.1bd36026.js",
     "static/media/video.mp4": "/aboutme/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/data.svg": "/aboutme/static/media/data.1fd647bc32ed79f1789b98ed3fc8b3be.svg",
+    "static/media/interview.svg": "/aboutme/static/media/interview.69821a20eb8701d5145c606b955cd546.svg",
+    "static/media/credit_card.svg": "/aboutme/static/media/credit_card.f0df71d4f1f810dc491f95980e9da942.svg",
     "index.html": "/aboutme/index.html",
     "main.c1443fe1.css.map": "/aboutme/static/css/main.c1443fe1.css.map",
-    "main.e09c79f2.js.map": "/aboutme/static/js/main.e09c79f2.js.map"
+    "main.1bd36026.js.map": "/aboutme/static/js/main.1bd36026.js.map"
   },
   "entrypoints": [
     "static/css/main.c1443fe1.css",
-    "static/js/main.e09c79f2.js"
+    "static/js/main.1bd36026.js"
   ]
 }
