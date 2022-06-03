@@ -64,9 +64,9 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/' onClick={toggleHome}>
-                        dolla
+                        bitBank
                     </SocialLogo>
-                    <WebsiteRights>dolla {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                    <WebsiteRights>Gonzalo Barrios {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href='//www.instagram.com/' target='_blank' aria-label='Instagram'>
                             <FaInstagram />

@@ -47,7 +47,7 @@ const InfoSection = (props) => {
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
+                                    <Button to='/signin'
                                         $smooth={true} 
                                         duration={500}
                                         $spy={true}

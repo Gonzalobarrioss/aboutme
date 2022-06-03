@@ -27,7 +27,7 @@ export const homeObjTwo = {
     img: require('../../images/data.svg').default,
     alt: 'Bussines_Woman',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: true
 }
 export const homeObjThree = {
