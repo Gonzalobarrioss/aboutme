@@ -10,7 +10,7 @@ function App() {
 
   return (
     
-    <HashRouter base='https://gonzalobarrioss.github.io/aboutme/'>
+    <HashRouter base='https://gonzalobarrioss.github.io/bitBank/'>
       <Routes>
         <Route path='/' element={ <Home />} />
         <Route path='/signin' element={ <SigninPage />} />
